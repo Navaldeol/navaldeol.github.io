@@ -2,6 +2,7 @@
 @import url("https://fonts.googleapis.com/css?family=Raleway:200,700|Source+Sans+Pro:300,600,300italic,600italic");
 
 
+
 html, body, div, span, applet, object,
 iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
 pre, a, abbr, acronym, address, big, cite,
@@ -367,9 +368,16 @@ input, select, textarea {
 	}
 
 /* Row */
-	.BiggerIcons {
-		font-size:50px;
-	}
+
+.BiggerIcons {
+	font-size:45px;
+}
+.Background {
+	background-image: url('images/background.jpg');
+	background-size: cover;
+	background-position: center;
+	/*background-attachment: */
+	min-height: 70vh; }
 	.row {
 		display: flex;
 		flex-wrap: wrap;
